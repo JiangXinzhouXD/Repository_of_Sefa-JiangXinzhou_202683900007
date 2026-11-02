@@ -18,7 +18,7 @@ def assessment(BMI):
     if BMI<=18.5:
         print('underweight')
     elif BMI<=24.9:
-        print('NOrmal weight')
+        print('Normal weight')
     elif BMI<=29.9:
         print('Overweight')
     else:
