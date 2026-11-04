@@ -1,4 +1,6 @@
-count = 1
-while count <= 5:
-    print("Hello,bro")
-    count = count +1
+total = 0
+num = 1
+while num <= 5:
+    total = total + num
+    num += 1
+print(total) #Output: 15
